@@ -214,6 +214,9 @@ button {
     border-radius: 25px;
     color: var(--Pale-Blue);
 }
+button:hover {
+    cursor:pointer;
+}
 .minus {
     display: none;
 }
