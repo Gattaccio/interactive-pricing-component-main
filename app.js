@@ -32,7 +32,7 @@ selectButton.addEventListener('click', () => {
         }
         annualy = 1;
     } else {
-        containerSwitch.style.backgroundColor ="var(--Light-Grayish-Blue2)";
+        containerSwitch.removeAttribute('style');
         if (slider1.value < 20) {
             price.innerHTML='$ 8.00<sup> / month</sup>';
             pageview.innerHTML = '10K';

@@ -153,6 +153,10 @@ input[type="range"]::-moz-range-progress {
     margin: 0 1rem;
     position: relative;
 }
+.container-switch:hover {
+    background-color: var(--Strong-Cyan);
+    cursor: pointer;
+}
 .switch-button  {
     width: 17px;
     height: 17px;
